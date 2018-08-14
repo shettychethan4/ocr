@@ -23,6 +23,7 @@ def get_serialNumber(path):
 
     im = cv2.imread(path)
     slno = barcode(im)
+    #something
 
     return slno[1].decode()
 
